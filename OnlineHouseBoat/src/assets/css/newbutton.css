@@ -1,0 +1,52 @@
+
+
+.newbtn a.btn-style-3 {
+    padding: 9px 11px;
+    border: 2px solid #28a3d6;
+    margin: 0 auto !important;
+    float: none !important;
+    display: block;
+    width: 110px;
+    text-align: center;
+    color: #222;
+    text-transform: uppercase;
+    position: relative;
+    z-index: 11;
+    background: #fff;
+    text-decoration: none;
+}
+.newbtn a.btn-style-3:before {
+    content: '';
+    position: absolute;
+    left: -1px;
+    top: 15px;
+    border-left: 6px solid #2390bd;
+    width: 23px;
+    height: 23px;
+}
+.newbtn a.btn-style-3:after {
+	content: '';
+	position: absolute;
+	right: -2px;
+	bottom: -2px;
+	
+	border-right: 6px solid #2390bd;
+	width: 23px;
+	height: 23px;
+}
+.newbtn a.btn-style-3:hover {
+	border: 2px solid #28a3d6;
+	background: #218ebb;
+	text-decoration: none;
+	color: #fff;
+}
+.newbtn a.btn-style-3:hover:before, .newbtn a.btn-style-3:hover:after {
+	content: '';
+	display: none;
+}
+
+.newbtn a.btn-style-1, .newbtn a.btn-style-1:before, .newbtn a.btn-style-1:after, .top-social ul li a, .top-social a.email .fa, .top-social a.email, .register-login ul li a .fa, .register-login ul li a, .number-box .fa, .number-text:before, .number-box span, .number-box strong, #nav li a, #nav li ul, .book-section a.btn-book, .book-section a.btn-book:before, .newbtn a.btn-style-2, .search-form button, .newbtn a.btn-style-3, .newbtn h3 a, .trip-offers-section .text-box a.btn-more, .trip-offers-section .text-box, .trip-offers-section .detail-col strong.price, .activites-box a.title, .activites-box, .newbtn a.btn-style-3:before, .newbtn a.btn-style-3:after, .newbtn a.btn-style-3, .newsletter-section .text-box input[type="submit"], .instagram ul li img, .footer-socila ul li a, .footer-socila ul li a .fa, .footer-section-2 strong.copy a, .footer-section-1 .footer-box ul li a, .footer-section-1 .footer-box ul li a:before, .footer-section-1 .footer-box address .text-box p, .footer-section-1 .footer-box address .text-box strong, .footer-section-1 .footer-box address span, .footer-section-1 .footer-box address span:before, .info-box a, .map-caption .frame img, .facilities-section:before, .gallery-style-1 .frame .caption a.link, .gallery-style-1 .frame .caption, .gallery-style-1 .frame img, .partners-section ul li span, .partners-section ul li em, .error-page .holder a.go-home, .error-page .holder button, .error-page .holder button .fa, .price-plans-section.table-style-2 .round-box, .price-plans-section.table-style-2 .round-box span, .price-plans-section.table-style-2 .table-style-1 strong.amount, .register-page .holder form button, .portfolioFilter a, .pagination-area .pagination>li a, .booking-form input[type="submit"], .add-banner-section .thumb, .about-box-area .box .icon-box, .included-trip .trip-box i, .included-trip .trip-box h3, .team-social-box ul li a, .team-style-2 .team-box .caption, .team-style-2 .team-box .caption h3, .team-style-2 .team-box .caption em, .team-social-box, .team-social-box-2 ul li a, .team-style-1 .box .thumb .caption, .team-style-1 .box .thumb:before, .team-style-1 .box .text-box, .product-page .product-box .frame .caption a.link, .product-page .product-box .frame:before, .product-page .product-box .frame .caption, .product-page .product-box .text-box h3 a, .comment-form input[type="submit"], .button-box-3 input[type="submit"], .blog-post-section .post-box .frame .owl-next, .blog-post-section .post-box .frame .owl-prev, .sidebar-tags li a, .blog-details-tags ul li a, .contact-page form input[type="submit"], .trip-offers-section .thumb .caption, .trip-offers-section .thumb img, .trip-detail-tab-section .nav-tabs>li a, .trip-date-section-body ul li a.btn-book, .event-booking-form input[type="submit"], .trip-events-section.event-section .owl-next:before, .trip-events-section.event-section .owl-prev:before, .add-banner-section .thumb img, .cost-calculator .left-box .text-box strong.cost, .upcoming-box a, .popular-box .text-box a, .facilities-section .facilitie-box .text-box h3, .facilities-section .facilitie-box i, .about-box-area .box h3, .blog-post-section .post-box .frame .caption {
+	transition: all 0.3s ease-in;
+	-webkit-transition: all 0.3s ease-in;
+	-moz-transition: all 0.3s ease-in;
+}
